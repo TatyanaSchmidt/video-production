@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="wraper wraper__bg-image">
-      <div class="container">
+<div class="container">
       <header class="header">
         <a href="#" class="logo">
           <img src="./img/logo.png" alt="логотип" class="logo__img" />
@@ -33,13 +33,16 @@
           <a href="tel:+8800700300" class="contact__tel">8 800 700 30 30</a>
           <span class="contact__working-hours">График работы</span>
         </address>
+
       </header>
+    </div>
       <main class="main">
+        <div class="container">
         <section class="preview">
           <h1 class="preview__header">снимем для вас креативное видео</h1>
           <p class="preview__text">Креативный видеопродакшн полного цикла</p>
           <div class="preview__button">
-            <button class="button">Подробнее</button>
+            <a href="#" class="button button--transparent">Подробнее</a>
           </div>
         </section>
         <section class="product">
@@ -54,7 +57,7 @@
                 </ul>
                 <p class="product__text">Креатив и производство рекламы, документального и корпоративного контента.</p>
               <div class="product__button">
-                <button class="button button--transparent">Подробнее</button>
+                <a href="#" class="button button--transparent">Подробнее</a>
               </div>
               </div>
             </li>
@@ -68,7 +71,7 @@
                 </ul>
                 <p class="product__text">Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!</p>
                 <div class="product__button">
-                <button class="button">Подробнее</button>
+                <a href="#" class="button button--transparent">Подробнее</a>
               </div>
               </div>
             </li>
@@ -82,7 +85,7 @@
                 </ul>
                 <p class="product__text">Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.</p>
                 <div class="product__button">
-                <button class="button button--transparent">Подробнее</button>
+                <a href="#" class="button button--transparent">Подробнее</a>
               </div>
             </div>
             </li>
@@ -109,10 +112,10 @@
             </li>
           </ul>
           <div class="paginator">
-            <div class="paginator__state">Страница <span class="paginator__state-current">1</span> из <span class="paginator__state-all">7 </span></div>
+            <div class="paginator__state">Страница<span class="paginator__state-current">1</span>из<span class="paginator__state-all">7</span></div>
             <ul class="paginator__list">
               <li class="paginator__item">
-                <a href="" class="paginator__link">1</a>
+                <a href="" class="paginator__link paginator__link-active">1</a>
               </li>
               <li class="paginator__item">
                 <a href="" class="paginator__link">2</a>
@@ -141,12 +144,16 @@
             <h2 class="about__title">О нас</h2>
             <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
             <div class="about__button">
-              <button class="button button--narrow">Подробнее</button>
+              <a href="#" class="button button--transparent button--narrow">Подробнее</a>
             </div>
           </div>
         </section>
+        </div>
       </main>
       <footer class="footer">
+        <div class="container">
+        <div class="footer__container footer__container--main-page">
+          <div class="footer__column">
         <a href="#" class="logo">
           <img src="./img/logo.png" alt="логотип" class="logo__img" />
         </a>
@@ -163,23 +170,21 @@
             </li>
           </ul>
         </nav>
+      </div>
+      <div class="footer__column">
         <div class="socials">
           <ul class="socials__list">
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="./img/t.png" alt="Telegram logo" class="socials__logo"></a>
+            <li class="socials__item socials__item--tg">
+              <a href="#" class="socials__link"></a>
             </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="./img/vk.png" alt="VK logo" class="socials__logo"></a>
+            <li class="socials__item socials__item--vk">
+              <a href="#" class="socials__link"></a>
             </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="./img/fb.png" alt="Facebook logo" class="socials__logo"></a>
+            <li class="socials__item socials__item--fb">
+              <a href="#" class="socials__link"></a>
             </li>
-            <li class="socials__item">
-              <a href="#" class="socials__link">
-                <img src="./img/in.png" alt="Instagram logo" class="socials__logo"></a>
+            <li class="socials__item socials__item--insta">
+              <a href="#" class="socials__link"></a>
             </li>
           </ul>
         </div>
@@ -187,8 +192,10 @@
           <p class="contact__text">Бесплатный звонок по России</p>
           <a href="tel:+8800700300" class="contact__tel">8 800 700 30 30</a>
         </address>
+      </div>
+      </div>
+      </div>
       </footer>
-    </div>
     </div>
   </body>
 </html>
