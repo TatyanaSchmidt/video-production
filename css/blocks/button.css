@@ -16,6 +16,7 @@
 .button--transparent:hover {
   background: #FF3D00;
   color: #FFFFFF;
+  transition: .5s;
 }
 
 .button--narrow {
@@ -32,6 +33,7 @@
 .button--bg-grey:hover {
   cursor: pointer;
   background-color: #2B2B2B;
+  transition: .5s;
 }
 
 .button--bg-orange {
@@ -44,6 +46,7 @@
 .button--bg-orange:hover {
   cursor: pointer;
   background-color: #FF3D00;
+  transition: .5s;
 }
 
 .button--wide {

@@ -12,6 +12,7 @@
 
 .partners__item:hover {
   filter: grayscale(0%);
+  transition: 1.0s;
 }
 
 
