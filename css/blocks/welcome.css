@@ -1,0 +1,47 @@
+.welcome {
+  height: 100vh;
+  background: url(../../img/welcome-rec.png) center no-repeat, url(../../img/welcome-bg.png) center no-repeat;
+  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.welcome__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  animation: jump-out 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.welcome__logo--central {
+  margin-bottom: 38px;
+}
+
+@keyframes jump-out {
+  from {
+    transform: scale(0.1) rotate(30deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

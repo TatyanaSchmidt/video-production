@@ -1,0 +1,20 @@
+.banner {
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #373737 url(../../img/banner-bg.png) right 7% no-repeat;
+}
+
+
+.banner__title {
+
+  width: 49%;
+  font-size: 48px;
+  font-weight: 700;
+
+}
+
+.banner__emphasis {
+  color: #FF5400;
+}

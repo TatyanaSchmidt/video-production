@@ -1,0 +1,32 @@
+.footer {
+  margin-top: auto;
+
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__container--main-page {
+  margin-bottom: 58px;
+  padding-top: 37px;
+  padding-bottom: 42px;
+  border-top: 1px solid #9A9A9A;
+}
+
+.footer__column {
+  display: flex;
+  align-items: center;
+}
+
+.footer .menu {
+  margin-left: 134px;
+}
+
+.footer__container--inner-page {
+  padding-top: 39px;
+  padding-bottom: 40px;
+
+}
